@@ -29,3 +29,9 @@ text zos-working-tree-encoding=IBM-1047
 
 will indicate that only the 4 files `README.md`, `f1.txt`, `f2.txt`, `f3.txt` should be git managed.
 
+- On z/OS, specify where to push your code to:
+```
+git remote add origin git@github.com:MikeFultonDev/sysmod.git
+git branch -M main
+git push -u origin main
+```
