@@ -1,0 +1,2 @@
+# Attributes to use for files (EBCDIC CCSID 1047 by default)
+text zos-working-tree-encoding=IBM-1047

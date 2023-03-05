@@ -1,0 +1,5 @@
+# List of datasets to exclude (initially all)
+*
+!README.md
+!GITEXCL
+!GITATTR
