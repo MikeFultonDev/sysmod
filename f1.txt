@@ -1,6 +1,2 @@
 Some text
 some more text
-<<<<<<< HEAD
-=======
-
->>>>>>> 4bb7e48 (push changes)
