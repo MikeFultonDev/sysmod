@@ -7,7 +7,7 @@ See [example](https://stackoverflow.com/questions/16792737/git-change-working-di
 - On z/OS, make the directory where you want your repo, e.g. `mkdir sysmod`
 - Initialize your git repo, specifying your work tree directory:
 ```
-git --git-dir sysmod --work-tree /dsfs/txt/SYS1
+git --git-dir sysmod --work-tree /dsfs/txt/SYS1 init
 ```
 - On z/OS, set up your .gitattributes to mark files as EBCDIC
 
@@ -17,6 +17,7 @@ text zos-working-tree-encoding=IBM-1047
 ```
 
 - If you want to only check in _some_ files under git control, use `info/exclude` instead of `.gitignore`, e.g.
+
 
 *info/exclude*
 ```
